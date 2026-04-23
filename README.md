@@ -118,8 +118,22 @@ Além de abrir *Issues* e enviar *Pull Requests*, você pode contribuir criando 
 
 ---
 
-👉 Assim, cada colaborador pode criar e enviar seus próprios exemplos de HTML e CSS, enriquecendo o repositório com práticas reais.
+Assim, cada colaborador pode criar e enviar seus próprios exemplos de HTML e CSS, enriquecendo o repositório com práticas reais.
 
+## ⚠️ Importante sobre o Web Editor (github.dev)
+
+Este projeto está sendo desenvolvido diretamente no **web editor do GitHub** (`github.dev`), que é uma versão simplificada do VS Code no navegador.
+
+- ✅ Permite criar, editar e excluir arquivos.
+- ✅ Permite fazer commits e sincronizar com o repositório.
+- ❌ **Não possui terminal integrado** (não é possível rodar comandos `git`, `npm`, `python`, etc).
+- ❌ Não é possível executar scripts diretamente dentro do editor.
+
+👉 Se precisar rodar comandos de terminal, existem duas alternativas:
+1. Usar **GitHub Codespaces**, que abre um ambiente completo com terminal.
+2. Clonar o repositório na sua máquina e usar o terminal local.
+
+Para este projeto, todo o trabalho será feito **diretamente no GitHub**, sem Codespaces e sem terminal local.
 
 
 
