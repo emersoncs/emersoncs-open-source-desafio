@@ -210,3 +210,33 @@ Existem três formas principais:
   ```html
   <link rel="stylesheet" href="style.css">
 
+## Visualizando HTML + CSS criados no Web Editor
+
+O **web editor do GitHub (github.dev)** permite criar e editar arquivos, mas **não possui terminal integrado** e **não executa HTML/CSS diretamente**. Para ver a estilização aplicada, é necessário abrir o arquivo HTML em um navegador.
+
+### Como visualizar
+Existem três formas principais:
+
+1. **Baixar o repositório**
+   - Clique em **Code → Download ZIP** no GitHub.
+   - Extraia o arquivo no seu computador.
+   - Dê dois cliques em `exemplo1.html` → ele abre no navegador e carrega o `style.css`.
+
+2. **Clonar com Git**
+   - Se tiver Git instalado, rode:
+     ```bash
+     git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+     ```
+   - Entre na pasta e abra o `exemplo1.html` no navegador.
+
+3. **Publicar com GitHub Pages**
+   - Vá em **Settings → Pages** no repositório.
+   - Configure a branch `main` e a pasta `/root` ou `/docs`.
+   - O GitHub gera um link público (ex.: `https://seuusuario.github.io/seurepositorio/exemplos/exemplo1.html`).
+   - Acesse esse link no navegador para ver o HTML estilizado.
+
+⚠️ Importante:
+- Cada pasta criada deve conter **apenas um arquivo HTML e um CSS**.  
+- O HTML deve estar **linkado ao CSS** usando:
+  ```html
+  <link rel="stylesheet" href="style.css">
