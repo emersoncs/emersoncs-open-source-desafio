@@ -160,6 +160,22 @@ Este projeto está sendo desenvolvido diretamente no **web editor do GitHub** (`
 
 👉 Assim, não é necessário sair do web editor para fazer commits. Todo o fluxo pode ser feito dentro do próprio editor.
 
+## 📂 Estrutura de Pastas
+
+Para manter a organização do projeto, cada pasta criada deve conter **apenas dois arquivos principais**:
+
+- Um arquivo **HTML** (responsável pela estrutura e conteúdo da página).
+- Um arquivo **CSS** (responsável pela formatação e estilo da página).
+
+### Exemplo:
+exemplo(x)/ = x representará o número da pasta seguindo a sequência em ordem crescente (2,3,4,etc.)
+
+│── exemplo(x).html
+│── style.css
 
 
+⚠️ Importante:
+- O arquivo HTML deve estar **linkado ao CSS** usando a tag `<link>` dentro do `<head>`.
+- Não devem existir múltiplos arquivos HTML ou CSS dentro da mesma pasta.  
+- Cada pasta representa um exemplo independente, com seu próprio HTML e CSS.
 
